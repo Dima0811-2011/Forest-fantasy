@@ -1,0 +1,205 @@
+h1{
+  text-align:center;
+  color:brown;
+  font-family: "Bad Script", cursive;
+  }
+h2{
+  text-align:center;
+  color:brown;
+   font-family: "Philosopher", sans-serif;
+}
+nav{
+  text-align:center;
+  padding:9px;
+  
+}
+body{
+ font-family: "Bad Script", cursive;
+           background: #359b2a;
+background: radial-gradient(circle, rgba(53, 155, 42, 1) 0%, rgba(63, 143, 114, 1) 100%, rgba(75, 148, 112, 1) 0%, rgba(237, 221, 83, 1) 100%);
+            
+           
+            
+}
+
+a{
+  text-decoration:none;
+  margin:50px;
+  
+  border-radius:3px;
+  font-size:25px;
+ 
+            
+  
+
+
+  
+}
+a:hover{
+  color:gold;
+  
+  
+}
+
+
+.nomer{
+  color:lightgreen;
+  background-color:brown;
+  
+  background-image:  linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777);
+background-size: 20px 35px;
+ 
+}
+
+.nomer2{
+  color:brown;
+  background-color:lightgreen;
+   background-image:  linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777);
+background-size: 20px 35px;
+}
+.nomer3{
+  color:white;
+  background-color:maroon;
+   background-image:  linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777);
+background-size: 20px 35px;
+}
+header{
+ background-image: url('https://img.freepik.com/free-photo/autumn-night-illuminates-famous-city-with-spooky-halloween-decorations-generated-by-artificial-intelligence_188544-84272.jpg?ga=GA1.1.1397122919.1727627129&semt=ais_hybrid&w=740'); 
+            background-size: cover;
+            background-repeat: no-repeat; 
+            background-position: center center;
+            min-height: 100vh;
+            padding: 20px 10%;
+            object-fit: cover;
+}
+.gaslo{
+  color:red;
+  text-align:center;
+  font-size:30px;
+  border:3px solid brown;
+  background-color:background;
+  border-radius:9px
+}
+.me{
+  color:white;
+  text-align:center;
+  font-size:30px
+}
+.info{
+  color:beige
+}
+.products{
+  background-color:grey;
+  border-radius:6px;
+  background-color: #e5e5f7;
+
+background-image: radial-gradient(circle at center center, #295a4d, #e5e5f7), repeating-radial-gradient(circle at center center, #295a4d, #295a4d, 10px, transparent 20px, transparent 10px);
+background-blend-mode: multiply;
+color:lightgreen
+
+}
+
+ .product-card {
+            width: 300px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            
+        }
+        .product-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+        }
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-details {
+            padding: 20px;
+        }
+        .product-title {
+            font-size: 1.5em;
+            margin: 0 0 10px 0;
+            color: #4b2e83;
+        }
+        .product-description {
+            font-size: 0.9em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .product-price {
+            font-size: 1.2em;
+            color: #6f42c1;
+            margin-bottom: 15px;
+        }
+        .add-to-cart {
+            background-color: #6f42c1;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .add-to-cart:hover {
+            background-color: #4b2e83;
+        }
+         .product-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            width: 100%;
+            }
+            .sov{
+              width:50px;
+              height:50px;
+              position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 100px;
+            z-index: 1000;
+            animation: float 3s ease-in-out infinite;
+            transition: transform 0.3s;
+              
+            }
+            .sov:hover{ transform: scale(1.2) rotate(10deg);}
+             @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0); }
+        }
+        .delivery{
+          color:maroon;
+          text-align:center;
+        }
+        .bay{
+          font-size:50px;
+          text-align:center;
+          color:lightgreen;
+          background-color:green;
+          border-radius:10px;
+}
+.bay:hover{
+  color:green;
+  background-color:lightgreen;
+}
+ul{
+  text-align:center;
+  color:white;
+}
+.thenks{
+  opacity:0.1;
+  font-size:60px;
+  text-align:center;
+  position:relative;
+  top:500px
+}
+.thenks:hover{
+  opacity:1;
+  transition:4s
+}
+             
